@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- MetaTags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags PWA -->
+    <meta name="theme-color" content="#ff0000"> <!-- Debe considir con el color  333333--> 
+    <meta name="MoblileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="aple-mobile-web-app-capable" content="yes">
+    <meta name="aple-mobile-web-app-status-bar-style" content="black-translucent"> 
+
+
+    <!-- ReacCDM -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <!-- BabelJS -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Boostrap4.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <title>React CDM</title>
+    <!-- Stylos. -->
+    <link rel="stylesheet" href="./style.css">
+    
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/png"/>
+    <link rel="aple-touch-icon" href="./favicon.png" type="image/png"/> <!-- Dispositivos ios -->
+    <link rel="aple-touch-startup-image" href="./favicon.png" type="image/png"/> <!-- Para dispositovos aple. -->
+
+    <!-- Manifes -->
+    <link rel="manifest" href="./manifest.json"> <!-- EL nombre con el cual va a salir la aplicacionpwa -->
+
+</head>
+<body>
+    <!-- Div Principal -->
+    <div id="root"> 
+
+    </div>
+
+    <script type="text/babel" src="./components/Contador.js"></script>
+    <script type="text/babel" src="./index.js"></script>
+    <script src="./register.js"> </script> <!-- SERVI WORKERS -->
+</body>
+</html>
